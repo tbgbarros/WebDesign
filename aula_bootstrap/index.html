@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>
+        Exercicio 2 - Bootstrap
+    </title>
+
+        <header><!-- inicio cabeçalho-->
+            <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+                <a href="#" class="navbar-brand">
+                    <img src="./img/logo.png" width="142">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>       
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Recursos</a>
+                        </li> 
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Beneficios</a>
+                        </li> 
+                        <li class="navbar-item">
+                            <a href="#" class="nav-link">Preços</a>
+                        </li>  
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Resumo Preços</a>
+                              <a class="dropdown-item" href="#">Tableta de Preços</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Estoque</a>
+                            </div>
+                          </li>
+                        <li class="navbar-item">
+                            <a href="#" class="btn btn-outline-light ml-4">Entrar</a>
+                        </li> 
+                        &nbsp&nbsp
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                        </form>
+                    </ul>
+                </div>
+            </nav>
+                
+        </header><!--termino do cabeçalho-->
+
+        <!-- col-md-6 deix um em cima do outro quando menor-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="d-flex col-md-6">
+                    <div class="aligh-self-center">
+                        <h2>Saiba para onde vai seu dinheiro!</h2>
+                        <p>
+                            Com fimnas, voce categoriza todos os lancamento. 
+                            Com graficos simples, voce sabe onde tudo vai e
+                            seu dinheiro tambem.
+                        </p>
+                        <a href="#" class="btn btn-primary">Veja Mais!</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/saiba.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+    <section> <!--segunda section-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <img src="./img/facil.png" class="img-fluid">
+                    <h4>Facil de usar</h4>
+                    <p>Você também pode usar dropdowns em seu nav da navbar. Menus dropdown precisam de um elemento envolto para posicionamento, 
+                        então, se assegure de usar elementos aninhados e separados para .nav-item e .nav-link, como mostrado abaixo.
+                    </p>
+                </div>
+
+                <div class="col-md-4 ">
+                    <img src="./img/economize.png" class="img-fluid">
+                    <h4>Economize</h4>
+                    <p>A classe .navbar-brand pode ser aplicada na maioria dos elementos, mas uma âncora funciona melhor, 
+                        já que alguns elementos precisam de classes utilitárias ou estilos customizados</p>
+                </div>
+
+                <div class="col-md-4 ">
+                    <img src="./img/suporte.png" class="img-fluid">
+                    <h4>Suporte</h4>
+                    <p>Links de navegação navbar são feitos com nossas opções .nav, 
+                        suas próprias classes modificadoras e precisam usar classes togglers,
+                        para estilização responsiva apropriada. Navegação em navbars também vão
+                        rescer para ocupar o maior espaço horizontal possível, mantendo os conteúdos do seu navbar alinhados.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  </head>
+  <body>
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
